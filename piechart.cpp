@@ -1,7 +1,7 @@
 #include "piechart.h"
 
 piechart::piechart():baseChart(), model(new piemodel()){
-    chartView=new QChart::QChartView(this);
+    chartView=new QChartView(this);
     addSeries(model->getPieSeries());
     setAnimationOptions(QChart::AllAnimations);
     chartView->setRenderHint(QPainter::Antialiasing);

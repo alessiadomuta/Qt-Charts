@@ -13,7 +13,7 @@ public:
     splinechart();
     virtual bool ImportFromFile(const QString&) override;
     virtual bool SaveFile(const QString &) override;
-    QChart::QSplineSeries* getSplineSeries() const;
+    QSplineSeries* getSplineSeries() const;
     virtual void AddtoChart(const QStringList&) override;
     virtual bool RemovefromChart(const QStringList&) override;
 };

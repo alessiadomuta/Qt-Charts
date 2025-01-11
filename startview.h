@@ -12,6 +12,7 @@
 #include <QList>
 #include <QGroupBox>
 #include <QMessageBox>
+#include <QFileDialog>
 
 #include "basechart.h"
 #include "userinputs.h"
